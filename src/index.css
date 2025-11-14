@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Modellá Brand Colors - Apple-inspired palette */
-    --background: 340 29% 97%;
-    --foreground: 0 0% 12%;
+    /* UNNA Brand Colors - Elegant palette */
+    --background: 90 18% 95%;
+    --foreground: 100 20% 3%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 12%;
+    --card-foreground: 100 20% 3%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 12%;
+    --popover-foreground: 100 20% 3%;
 
-    --primary: 348 47% 85%;
-    --primary-foreground: 0 0% 12%;
+    --primary: 90 18% 73%;
+    --primary-foreground: 100 20% 3%;
 
-    --secondary: 344 35% 88%;
-    --secondary-foreground: 0 0% 12%;
+    --secondary: 210 13% 60%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 340 20% 94%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 260 6% 48%;
+    --muted-foreground: 260 14% 29%;
 
-    --accent: 348 47% 85%;
-    --accent-foreground: 0 0% 12%;
+    --accent: 90 18% 73%;
+    --accent-foreground: 100 20% 3%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 340 20% 90%;
-    --input: 340 20% 90%;
-    --ring: 348 47% 85%;
+    --border: 260 6% 85%;
+    --input: 260 6% 90%;
+    --ring: 90 18% 73%;
 
     --radius: 1rem;
     
     /* Glassmorphism */
-    --glass-bg: 0 0% 100% / 0.4;
-    --glass-border: 0 0% 100% / 0.2;
-    --glass-shadow: 348 47% 85% / 0.1;
+    --glass-bg: 90 18% 95% / 0.6;
+    --glass-border: 90 18% 73% / 0.2;
+    --glass-shadow: 90 18% 73% / 0.1;
 
     --sidebar-background: 0 0% 98%;
 
@@ -62,37 +62,37 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 98%;
+    --background: 260 14% 10%;
+    --foreground: 90 18% 95%;
 
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 260 14% 15%;
+    --card-foreground: 90 18% 95%;
 
-    --popover: 0 0% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 260 14% 15%;
+    --popover-foreground: 90 18% 95%;
 
-    --primary: 348 47% 75%;
-    --primary-foreground: 0 0% 12%;
+    --primary: 90 18% 60%;
+    --primary-foreground: 100 20% 3%;
 
-    --secondary: 0 0% 16%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 260 14% 29%;
+    --secondary-foreground: 90 18% 95%;
 
-    --muted: 0 0% 16%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 260 6% 25%;
+    --muted-foreground: 260 6% 65%;
 
-    --accent: 348 47% 75%;
-    --accent-foreground: 0 0% 12%;
+    --accent: 90 18% 60%;
+    --accent-foreground: 100 20% 3%;
 
     --destructive: 0 62.8% 50.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 348 47% 75%;
+    --border: 260 6% 25%;
+    --input: 260 6% 25%;
+    --ring: 90 18% 60%;
     
-    --glass-bg: 0 0% 12% / 0.4;
-    --glass-border: 0 0% 100% / 0.1;
-    --glass-shadow: 0 0% 0% / 0.3;
+    --glass-bg: 260 14% 15% / 0.6;
+    --glass-border: 90 18% 73% / 0.1;
+    --glass-shadow: 0 0% 0% / 0.5;
   }
 }
 

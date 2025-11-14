@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useCart } from '@/hooks/useCart';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoUnna from '@/assets/logo-unna.jpeg';
 
 const categories = [
   { name: 'Sutiãs', path: '/sutias' },
@@ -27,8 +28,8 @@ export const Header = () => {
         {/* Top bar */}
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-light tracking-tight text-foreground hover:text-primary transition-colors">
-            Modellá
+          <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+            <img src={logoUnna} alt="UNNA - Moda e Saúde" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Search */}
