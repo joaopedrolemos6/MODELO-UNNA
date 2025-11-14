@@ -22,6 +22,7 @@ import Sport from "./pages/categories/Sport";
 import Infantil from "./pages/categories/Infantil";
 import Praia from "./pages/categories/Praia";
 import Maternidade from "./pages/categories/Maternidade";
+import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -53,6 +54,7 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/policy" element={<Policy />} />
+              <Route path="/admin" element={<Admin />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
